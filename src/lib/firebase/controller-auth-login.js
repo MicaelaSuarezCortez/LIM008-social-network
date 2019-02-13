@@ -29,15 +29,3 @@ export const getPosts = (callback) =>
 export const editPosts = (idPost, textNewNote) => firebase.firestore().collection('posts').doc(idPost).update({
   content: textNewNote, 
 }); 
-
-/* funcion para editar post
-export const editPosts = (idPost, textNewNote, privacySelected) => firebase.firestore().collection('posts').doc(idPost).get()
-.then(function(querySnapshot) {
-  querySnapshot.forEach(function(doc) {
-    console.log(doc.id, '=>', doc.data());
-    // Build doc ref from doc.id
-    firebase.firestore().collection('posts').doc(doc.id).update({
-      content: textNewNote, 
-      privacy: privacySelected });
-  });
-});*/

@@ -13,6 +13,8 @@ const fixtureData = {
   }
 };
 
+import {editPosts } from '../src/lib/firebase/controller-firebase';
+
 global.firebase = new MockFirebase(fixtureData, { isNaiveSnapshotListenerEnabled: true });
 
 describe('lista de posts', () => {
@@ -35,5 +37,11 @@ describe('lista de posts', () => {
           done();
         }
       ));
+  });
+});
+
+describe('editPosts', () => {
+  it('Debería poder editar posts: Hola Mundo', () => {
+    return editPosts() .then()
   });
 });

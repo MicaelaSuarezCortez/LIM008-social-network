@@ -35,6 +35,5 @@ export const noteFunction = (post) => {
     const postContent = document.getElementById(`txt-area-post-content-${post.id}`);
     editPosts(post.id, postContent.value);
   });
-
   return postList;
 };
