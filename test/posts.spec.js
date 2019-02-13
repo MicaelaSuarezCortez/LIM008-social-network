@@ -1,4 +1,5 @@
 import MockFirebase from 'mock-cloud-firestore';
+import { editPosts } from '../src/lib/firebase/controller-auth-login';
 
 const fixtureData = {
   __collection__: {
@@ -33,6 +34,20 @@ describe('lista de posts', () => {
           const result = data.find((note) => note.id === 'abc1d');
           expect(result).toBe(undefined);
           done();
+        }
+      ));
+  });
+});
+
+// testing para editar post
+describe('edicion de post', () => {
+  it('Debería porder editar un post', (done) => {
+    return editPosts('Hola')
+      .then(() => getPost(
+        (data) => {
+          const result = data.find((note) => note.message === 'Hola');
+          expect(result.message).toBe('');
+          done('Hola Feliz día');
         }
       ));
   });
