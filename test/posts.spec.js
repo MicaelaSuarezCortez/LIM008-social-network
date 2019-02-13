@@ -13,9 +13,11 @@ const fixtureData = {
   }
 };
 
+// recibe una data ya hecha
 global.firebase = new MockFirebase(fixtureData, { isNaiveSnapshotListenerEnabled: true });
 
 describe('lista de posts', () => {
+  // usa done para decirle en qué momento termina 
   it('Debería porder agregar un post', (done) => {
     return addPost('Feliz Cumpleaños')
       .then(() => getPost(
