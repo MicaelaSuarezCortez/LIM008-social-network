@@ -37,4 +37,3 @@ describe('lista de posts', () => {
       ));
   });
 });
-
