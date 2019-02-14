@@ -5,6 +5,19 @@ const mockfirestore = new firebasemock.MockFirestore();
 mockfirestore.autoFlush();
 mockauth.autoFlush();
 
+const fixtureData = {
+  __collection__: {
+    posts: {
+      __doc__: {
+        abc1d: {        
+          email: 'toxoloc@parcel4.net',    
+          password: '123456nat'
+        },
+      }
+    }
+  }
+};
+
 global.firebase = firebasemock.MockFirebaseSdk(
   // use null if your code does not use RTDB
   path => (path ? mockdatabase.child(path) : null),
@@ -13,37 +26,17 @@ global.firebase = firebasemock.MockFirebaseSdk(
 );
 
 // importamos la funcion que vamos a testear
-import { signInUser, loginAuth, closeSignIn, signUpUser } from '../src/lib/firebase/controller-firebase.js';
+import { signInUser, loginAuth, closeSignIn, signUpUser } from '../src/lib/firebase/controller-auth-login.js';
 
-describe('signInUser', () => {
-  it('debería ser una función', () => {
-    expect(typeof signInUser).toBe('function');
-  });
-  it('Debería poder iniciar sesion', () => {
-    return signInUser('front@end.la', '123456')
-      .then((user) => {
-        expect(user.email).toBe('front@end.la');
-      });
-  });
-});
-
-describe('loginAuth', () => {
-  it('debería ser una función', () => {
+ describe('loginAuth', () => {
+  it('Debería ser una función', () => {
     expect(typeof loginAuth).toBe('function');
   });
-  it('Debería poder auntentificar el email y contraseña', () => {
-    return loginAuth(() => {
-      
-    });
-  });
-});
 
-describe('closeSignIn', () => {
-  it('debería ser una función', () => {
-    expect(typeof closeSignIn).toBe('function');
-  });
-  it('Debería poder salir de sesion de la cuenta de la red social', () => {
-    return closeSignIn();
+  it('Debería poder actualizar el nombre del usuario', () => {
+    signInUser('gatitosbonitos@gmail.com', '123456').then(() => {
+      return loginAuth();
+    });
   });
 });
 
@@ -52,15 +45,6 @@ describe('signUpUser', () => {
     expect(typeof signUpUser).toBe('function');
   });
   it('Debería poder registrar a un usuario', () => {
-    return signUpUser('margarita12@gmail.com', '234567');
+    return signUpUser('toxoloc@parcel4.net', '123456nat');
   });
 });
-
-// describe('D', () => {
-//   it('debería ser una función', () => {
-//     expect(typeof signUpUser).toBe('function');
-//   });
-//   it('Debería poder registrar a un usuario', () => {
-//     return signUpUser('front@end.la', '123456');
-//   });
-// });
