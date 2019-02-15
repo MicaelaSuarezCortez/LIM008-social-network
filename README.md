@@ -55,50 +55,51 @@ frameworks o librerías de CSS y JS.
 
 Dado que en el entorno social donde nos desenvolvemos las redes sociales forman parte de nuestra vida se genera la necesidad de usarlas para estar conectados con las personas, así como con entidades privadas y públicas.
 
-En las redes sociales se abarcan diversidad de tema por eso vimos oportuno crear una red social orientado a personas Joincludeas o que buscan la equidad de género. En esta esta Red Social Joinclude se podrá compartir ideas, historias relacionadas al feminismo  para llegar a ser una comunidad fuerte que genere impacto social en el mundo. 
+En las redes sociales se abarcan diversidad de temas por eso vimos oportuno crear una red social orientado a personas feministas o que buscan la equidad de género. En esta Red Social nombrada Joinclude se podrá compartir ideas, historias relacionadas al feminismo para llegar a ser una comunidad fuerte que genere impacto social en el mundo. 
 
 * ¿Quiénes son los principales usuarios de producto?
-   Los usuarios principales son personas Joincludeas.
+   Los usuarios principales son personas feministas.
    Los usuarios secundarios personas que anhelan y buscan la equidad de género.
 
 * ¿Cómo descubriste las necesidades de los usuarios?
-   Dado altos índices de violencia hacia la mujer que diariamente informan los medios de comunicación y la falta de equidad de los derechos y oportunidades en los diversos roles que podría desempeñar la mujer, así como los pocos espacios que impulsen un cambio a esta mentalidad que persiste desde hace muchos años, creemos oportuno crear la red social JOINCLUDE.
+   Dado altos índices de violencia hacia la mujer que diariamente informan los medios de comunicación y la falta de equidad de los derechos y oportunidades en los diversos roles que podría desempeñar la mujer, así como los pocos espacios que impulsen un cambio a esta mentalidad que persiste desde hace muchos años, creemos oportuno crear la red social Joinclude.
       
-   Así mismo durante las entevistas pudimos recabar información para conocer y descubir las secciones que quisieran ver para una red social orientada a personas Joincludeas o que buscan la equidad de género, conociendo aún más sus necesidades.
+   Así mismo durante las entevistas pudimos recabar información para conocer y descubir las secciones que quisieran ver para una red social orientada a personas feministas o que buscan la equidad de género, conociendo aún más sus necesidades.
 
 * ¿Qué problema resuelve el producto para estos usuarios?
   Sirve de medio para que las personas puedan compartir sus historias o hechos vividos para que más gente lo conozca y puedan recibir apoyo y de esa forma se aporte en reducir los actos violencia, feminicidio o discriminación.
 
 * ¿Cuáles son los objetivos de estos usuarios en relación con el producto?
-  Los usuario podrán compartir post acerca de temas relacionados al feminismo y equidad de género.
+  Los usuario podrán compartir post acerca de temas relacionados al feminismo y equidad de género, acceder a páginas web que brindan apoyo legal, psicológico, educación y trabajo.
 
 * ¿Cuáles son las principales funcionalidades del producto y cuál es su prioridad?
-  Los usuarios podrán publicar, editar, eliminar, dar like a al post, así también el usuario podrá elegir si el post será público o privado.
+  El usuario podrá loguearse a través de su cuenta de Facebook, Google o con su cuenta creada en la aplicación.
+  Los usuarios podrán publicar, editar, eliminar, dar like al post, así también el usuario podrá elegir si el post será público o privado.
 
 * ¿Cómo verificaste que el producto les está resolviendo sus problemas?
   La verificación se hizo a través de la iteración de los prototipos de baja fidelidad.
  
 * ¿Cómo te asegurarás que estos usuarios usen este producto?
-   Luego de las entrevistas y con toda la información recabada creamos sketchs plasmando de la mejor manera posible los requerimientos que quisieran ver y hacer en la red social, luego le pedimos a los usuarios objetivo que nos den feedback de qué tán intuitivo y fácil de usar era este prototipo y qué se podría mejorar, esto lo hicimos 3 veces para de esa forma asegurarnos de atender la necesidad del usuario.
+   Luego de las entrevistas y con toda la información recabada creamos sketchs plasmando de la mejor manera posible los requerimientos que quisieran ver y hacer en la red social, luego le pedimos a los usuarios objetivo que nos den feedback de que tan intuitivo y fácil de usar era este prototipo y qué se podría mejorar, esto lo hicimos 2 veces para de esa forma asegurarnos de atender la necesidad del usuario.
 
 ## Entrevista
- Antes de elaborar las preguntas para la entevista definimos nuestro público objetivo de acuerdo al tema elegido, "El feminismo" en tal sentido la entrevista fue dirigida a personas que se consideran Joincludeas y/o que buscan la equidad de género.
+ Antes de elaborar las preguntas para la entevista definimos nuestro público objetivo de acuerdo al tema elegido, "El feminismo" en tal sentido la entrevista fue dirigida a personas que se consideran feministas y/o que buscan la equidad de género.
  y con la finaliad de representar todo lo que el usuario necesitaría ver o hacer en nuestro producto elaboramos las siguientes preguntas:
 
 1. ¿Cuál es la red social que más usas? ¿por qué?
    La red social que más uso es Facebook, porque:
-    * Puedes discutir diferentes propuestas Joincludeas.
+    * Puedes discutir diferentes propuestas feministas.
     * Denunciar casos de violencia, publicidad machista, casos de desigualdad.
     * Conectarse con personas que tienen las mismos intereses.
     * Compartir noticias es más dinámica que en otras redes sociales.
 
 2. ¿De las redes sociales que utilizas qué te gustaría mejorar?
     * Que en Facebook se pueda categorizar la información para que me sirva en el día a día.
-    * Desde el punto de vista del feminismo la seguridad no está garantizada, hay muchísimo ciberbulling, ataque de trolls, mucha    violencia. Le gustaría que regulen la violencia gráfica, Facebook practicamente no hace nada.
+    * Desde el punto de vista del feminismo la seguridad no está garantizada, hay muchísimo ciberbulling, ataque de "trols" (persona que publica mensajes provocadores, con la principal intención de molestar o provocar una respuesta emocional negativa en los usuarios y lectores de una comunidad en línea), mucha    violencia. Le gustaría que regulen la violencia gráfica, Facebook practicamente no hace nada.
 
 3. Cuéntame una experiencia impactante.
-    * Negativa: los trollers, cuando te dicen que deben matar a la feminazis.	 
-    * Positiva: Se crearon grupos de Facebook, a partir de la marcha del 13 de agosto, donde   muchas chicas contaron sus historias de violencia a la cual también se unieron chicas que brindaron apoyo y se pusieron en contacto con psicólogas.
+    * Negativa: los trols, cuando te dicen que deben matar a la feminazis.	 
+    * Positiva: se crearon grupos de Facebook, a partir de la marcha "Ni una menos" del 13 de agosto del 2016, donde  muchas mujeres contaron sus historias de violencia a la cual también se unieron mujeres que brindaron apoyo y se pusieron en contacto con psicólogas.
 
 4. ¿Cuál es el contenido que más buscas en las redes sociales?
     * Buscar instituciones u organizaciones que postean información interesante.
@@ -110,7 +111,7 @@ En las redes sociales se abarcan diversidad de tema por eso vimos oportuno crear
     * Asesoría psicológica.
     * Comunidades.
     * Lugares de encuentro que sean certificados y que garantice seguridad, donde se puedan congregar personas que sigan el mismo ideal.
-    * Que haya links a otras instituciones públicas (ministerio de la mujer, comisarías, ministerio público, defensoría del pueblo) ya que hay mujeres Joincludeas que no saben que hay canales de atención informativos.
+    * Que haya links a otras instituciones públicas (ministerio de la mujer, comisarías, ministerio público, defensoría del pueblo) ya que hay mujeres feministas que no saben que hay canales de atención informativos.
     * Becas de estudio.
     * Trabajo.
 
@@ -130,23 +131,23 @@ En las redes sociales se abarcan diversidad de tema por eso vimos oportuno crear
 
   **Historia 1: registroUsuario**
 
-  **Yo como:** Usuario de la Red Social.
+  + **Yo como:** Usuario de la Red Social.
 
-  **Quiero:** quiero registrarme con mis datos (nombre, apellidos, alias, país, correo electrónico, contraseña).
+  + **Quiero:** quiero registrarme con mis datos (nombre, apellidos, alias, país, correo electrónico, contraseña).
 
-  **Para:** ser miembro de la Red Social.
+  + **Para:** ser miembro de la Red Social.
 
-  **Definición de terminado:** el usuario podrá registrar sus datos en un formulario que contenga inputs y pueda dar clic en el botón unirme.
+  + **Definición de terminado:** el usuario podrá registrar sus datos en un formulario que contenga inputs y pueda dar clic en el botón unirme.
 
   **Historia 2: verificaciónCorreoDeRegistro**
 
-  **Yo como:** Usuario de la Red Social.
+  + **Yo como:** Usuario de la Red Social.
 
-  **Quiero:** podré recibir un correo electrónico de verificación en mi bandeja.
+  + **Quiero:** podré recibir un correo electrónico de verificación en mi bandeja.
 
-  **Para:** confirmar mis datos de registro.
+  + **Para:** confirmar mis datos de registro.
 
-  **Definición de terminado:** Que el usuario pueda recibir un enlace a su bandeja de correo y pueda dar clic para validar su correo y le muestre una ventana emergente que diga: Su correo ha sido validado.
+  + **Definición de terminado:** Que el usuario pueda recibir un enlace a su bandeja de correo y pueda dar clic para validar su correo y le muestre una ventana emergente que diga: Su correo ha sido validado.
 
   **Historia 3: inicioSesionNormal**
 
