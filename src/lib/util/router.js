@@ -10,12 +10,13 @@ const changeTmp = (hash) => {
     return viewTemp('#/signIn');
   }
 };
+
 const viewTemp = (routers) => {
   let router = routers.substr(2, routers.length - 2);
-  const navPost = document.getElementById('navPost');
   const container = document.getElementById('container');
-  navPost.innerHTML = '';
+  const navPost = document.getElementById('navPost');
   container.innerHTML = '';
+  navPost.innerHTML = '';
   switch (router) {
   case 'home':
     navPost.appendChild(viewTemplates.home()); 
@@ -36,4 +37,3 @@ export const initRouter = () => {
   window.addEventListener('load', changeTmp(window.location.hash));
   if (('onhashchange' in window)) window.onhashchange = () => changeTmp(window.location.hash);
 };
-
