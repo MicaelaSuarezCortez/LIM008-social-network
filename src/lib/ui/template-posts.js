@@ -1,6 +1,5 @@
-import {editPosts} from '../firebase/controller-auth-login.js';
+import {editPosts, deletePost} from '../firebase/controller-auth-login.js';
 import {updateLikeCount} from '../view-controller/view-controller.js';
-import {deleteConfirmation} from '../view-controller/view-controller-auth.js';
 /* Funcion con el maquetado de mis post*/
 export const postFunction = (post, uid) => {
   const tmp = `<div class='box-post large2'>
@@ -16,18 +15,23 @@ export const postFunction = (post, uid) => {
       <div id="btn-edit-${post.id}"> 
       ${post.uid === uid ? '<button class="btn-post btn-edit" >Editar</button>' : ''}  
       </div>
-      <div id="btn-save-${post.id}"> 
-      ${post.uid === uid ? '<button class="btn-post btn-edit"  hidden >Guardar</button>' : ''}  
+      <div id="btn-save-${post.id}" hidden> 
+      ${post.uid === uid ? '<button class="btn-post btn-edit"   >Guardar</button>' : ''}  
       </div>
       <div id="btn-deleted-${post.id}"> 
       ${post.uid === uid ? '<button class="btn-post btn-edit" >Eliminar</button>' : ''}  
-      // </div> </div>`;
+      </div> </div>
+      `
+      ;
   let postList = document.createElement('div');
   postList.setAttribute('id', `id-${post.id}`);
   postList.innerHTML = tmp;
 
   const btnDeletePost = postList.querySelector(`#btn-deleted-${post.id}`);
-  btnDeletePost.addEventListener('click', () => deleteConfirmation(post.id));
+  btnDeletePost.addEventListener('click', () => {
+    alert('¿Desea eliminar la publicación?');
+    deletePost(post.id); 
+  });
 
   const btnLikePost = postList.querySelector(`#btn-like-${post.id}`);
   btnLikePost.addEventListener('click', () => {
