@@ -87,33 +87,32 @@ En las redes sociales se abarcan diversidad de tema por eso vimos oportuno crear
 
 1. ¿Cuál es la red social que más usas? ¿por qué?
    La red social que más uso es Facebook, porque:
-   * Puedes discutir diferentes propuestas feministas.
-   * Denunciar casos de violencia, publicidad machista, casos de desigualdad.
-   * Conectarse con personas que tienen las mismos intereses.
-   * Compartir noticias es más dinámica que en otras redes sociales.
+    * Puedes discutir diferentes propuestas feministas.
+    * Denunciar casos de violencia, publicidad machista, casos de desigualdad.
+    * Conectarse con personas que tienen las mismos intereses.
+    * Compartir noticias es más dinámica que en otras redes sociales.
 
 2. ¿De las redes sociales que utilizas qué te gustaría mejorar?
-   * Que en Facebook se pueda categorizar la información para que me sirva en el día a día.
-   * Desde el punto de vista del feminismo la seguridad no está garantizada, hay muchísimo ciberbulling, ataque de trolls, mucha    violencia. Le gustaría que regulen la violencia gráfica, Facebook practicamente no hace nada.
+    * Que en Facebook se pueda categorizar la información para que me sirva en el día a día.
+    * Desde el punto de vista del feminismo la seguridad no está garantizada, hay muchísimo ciberbulling, ataque de trolls, mucha    violencia. Le gustaría que regulen la violencia gráfica, Facebook practicamente no hace nada.
 
 3. Cuéntame una experiencia impactante.
-  * Negativa: los trollers, cuando te dicen que deben matar a la feminazis.
-	 
-  * Positiva: Se crearon grupos de Facebook, a partir de la marcha del 13 de agosto, donde muchas chicas contaron sus historias de violencia a la cual también se unieron chicas que brindaron apoyo y se pusieron en contacto con psicólogas.
+    * Negativa: los trollers, cuando te dicen que deben matar a la feminazis.	 
+    * Positiva: Se crearon grupos de Facebook, a partir de la marcha del 13 de agosto, donde   muchas chicas contaron sus historias de violencia a la cual también se unieron chicas que brindaron apoyo y se pusieron en contacto con psicólogas.
 
 4. ¿Cuál es el contenido que más buscas en las redes sociales?
-  * Buscar instituciones u organizaciones que postean información interesante.
-  * Información de eventos.
-  * Información de talleres.
+    * Buscar instituciones u organizaciones que postean información interesante.
+    * Información de eventos.
+    * Información de talleres.
 
 5. ¿Qué contenido te gustaría que tenga la red social?
-  * Asesoría legal de alguien enfocadx en redes sociales, ya que hay mucho acoso.
-  * Asesoría psicológica.
-  * Comunidades.
-  * Lugares de encuentro que sean certificados y que garantice seguridad, donde se puedan congregar personas que sigan el mismo ideal.
-  * Que haya links a otras instituciones públicas (ministerio de la mujer, comisarías, ministerio público, defensoría del pueblo) ya que hay mujeres feministas que no saben que hay canales de atención informativos.
-  * Becas de estudio.
-  * Trabajo.
+    * Asesoría legal de alguien enfocadx en redes sociales, ya que hay mucho acoso.
+    * Asesoría psicológica.
+    * Comunidades.
+    * Lugares de encuentro que sean certificados y que garantice seguridad, donde se puedan congregar personas que sigan el mismo ideal.
+    * Que haya links a otras instituciones públicas (ministerio de la mujer, comisarías, ministerio público, defensoría del pueblo) ya que hay mujeres feministas que no saben que hay canales de atención informativos.
+    * Becas de estudio.
+    * Trabajo.
 
   Fotos con nuestras entrevistadas.
   ------------------------------
@@ -128,77 +127,78 @@ En las redes sociales se abarcan diversidad de tema por eso vimos oportuno crear
 
 ## Historias de usuario
     A continuación las historias de usuario de la red social Joinclude.
+    
   **Historia 1: registroUsuario**
-  YO COMO: Usuario de la Red Social
-  QUIERO: quiero registrarme con mis datos (usuario, alias, contraseña, nombre, apellidos, edad país).
-  PARA: ser miembro de la Red Social.
-  DEFINICIÓN DE TERMINADO: el usuario podrá registrar sus datos en un formulario que contenga input y pueda dar clic en el botón registrar.
+  **Yo como:** Usuario de la Red Social
+  **Quiero:** quiero registrarme con mis datos (usuario, alias, contraseña, nombre, apellidos, edad país).
+  **Para:** ser miembro de la Red Social.
+  **Definición de terminado:** el usuario podrá registrar sus datos en un formulario que contenga input y pueda dar clic en el botón registrar.
 
   **Historia 2: verificaciónCorreoDeRegistro**
-  YO COMO: Usuario de la Red Social.
-  QUIERO: podré recibir un correo electrónico de verificación a mi bandeja.
-  PARA: confirmar mis datos de registro.
-  DEFINICIÓN DE TERMINADO: Que el usuario pueda recibir un enlace a su bandeja de correo y pueda dar clic para validar su correo y le muestre una ventana emergente que diga: Su correo ha sido validado.
+  **Yo como:** Usuario de la Red Social.
+  **Quiero:** podré recibir un correo electrónico de verificación a mi bandeja.
+  **Para:** confirmar mis datos de registro.
+  **Definición de terminado:** Que el usuario pueda recibir un enlace a su bandeja de correo y pueda dar clic para validar su correo y le muestre una ventana emergente que diga: Su correo ha sido validado.
 
   **Historia 3: inicioSesionNormal**
-  YO COMO: Usuario de la Red Social
-  QUIERO:  iniciar sesión con mi correo electrónico y contraseña que ingresé en mi formulario de registro.
-  PARA: para brindarle una capa de seguridad para acceder a información y contenido de mi cuenta.
-  DEFINICIÓN DE TERMINADO: que el usuario ingrese usuario y contraseña en inputs y pueda dar clic en el botón ingresar para acceder al contenido de su cuenta de Feminist.
+  **Yo como:** Usuario de la Red Social
+  **Quiero:** iniciar sesión con mi correo electrónico y contraseña que ingresé en mi formulario de registro.
+  **Para:** para brindarle una capa de seguridad para acceder a información y contenido de mi cuenta.
+  **Definición de terminado:** que el usuario ingrese usuario y contraseña en inputs y pueda dar clic en el botón ingresar para acceder al contenido de su cuenta de Feminist.
 
   **Historia 4: inicioSesionGoogle**
-  YO COMO: Usuario de la Red Social
-  QUIERO:  usar mi cuenta de Google para iniciar sesión a Feminist.
-  PARA: brindarle una capa de seguridad para acceder a la información y contenido de mi cuenta.
-  DEFINICIÓN DE TERMINADO: que el usuario haga clic en el icono de Google para que inicie sesión y acceda al contenido de su cuenta en Feminist.
+  **Yo como:** Usuario de la Red Social
+  **Quiero:**  usar mi cuenta de Google para iniciar sesión a Feminist.
+  **Para:** brindarle una capa de seguridad para acceder a la información y contenido de mi cuenta.
+  **Definición de terminado:** que el usuario haga clic en el icono de Google para que inicie sesión y acceda al contenido de su cuenta en Feminist.
 
   **Historia 5: inicioSesionFacebook**
-  YO COMO: Usuario de la Red Social
-  QUIERO:  usar mi cuenta de Facebook para iniciar sesión a Feminist.
-  PARA: brindarle una capa de seguridad para acceder a la información y contenido de mi cuenta.
-  DEFINICIÓN DE TERMINADO: que el usuario haga clic en el icono de Facebook para que inicie sesión y acceda al contenido de su cuenta en Feminist.
+  **Yo como:** Usuario de la Red Social
+  **Quiero:**   usar mi cuenta de Facebook para iniciar sesión a Feminist.
+  **Para:** brindarle una capa de seguridad para acceder a la información y contenido de mi cuenta.
+  **Definición de terminado:**  que el usuario haga clic en el icono de Facebook para que inicie sesión y acceda al contenido de su cuenta en Feminist.
 
   **Historia 6: cerrarSesion**
-  YO COMO: Usuario de la Red Social
-  QUIERO:  cerrar sesión de mi cuenta.
-  PARA: evitar que las  personas ingresen a una cuenta de otro usuario.
-  DEFINICIÓN DE TERMINADO: que el usuario pueda hacer clic en el botón salir del menú principal.
+   **Yo como:**  Usuario de la Red Social
+  **Quiero:**  cerrar sesión de mi cuenta.
+  **Para:**  evitar que las  personas ingresen a una cuenta de otro usuario.
+  **Definición de terminado:** que el usuario pueda hacer clic en el botón salir del menú principal.
 
   **Historia 7: publicarPost**
-  YO COMO: Usuario de la Red Social
-  QUIERO:  postear en mi muro.
-  PARA: mostrar información de mi interés
-  DEFINICIÓN DE TERMINADO: que cada vez que el usuario haga click en el botón publicar se agregue el post en el muro del usuario, uno debajo de otro. Usando la base de datos Firestore.
+  **Yo como:**  Usuario de la Red Social
+  **Quiero:**  postear en mi muro.
+  **Para:** mostrar información de mi interés
+  **Definición de terminado:** que cada vez que el usuario haga click en el botón publicar se agregue el post en el muro del usuario, uno debajo de otro. Usando la base de datos Firestore.
 
   **Historia 9: validaciónPost**
-  YO COMO: Usuario de la Red Social
-  QUIERO: que no pueda publicar un post vacío.
-  PARA:  evitar  post vacíos en el muro de la red social
-  DEFINICIÓN DE TERMINADO: Si el textarea del post se encuentra vacío se bloqueará el botón de publicar para así no poder publicar un post vacio.
+  **Yo como:**  Usuario de la Red Social
+  **Quiero:** que no pueda publicar un post vacío.
+  **Para:**  evitar  post vacíos en el muro de la red social
+  **Definición de terminado:** Si el textarea del post se encuentra vacío se bloqueará el botón de publicar para así no poder publicar un post vacio.
 
   **Historia 10: eliminarPost**
-  YO COMO: Usuario de la Red Social
-  QUIERO: eliminar un post específico.
-  PARA: poder eliminar de mi muro los post que ya no quiera.
-  DEFINICIÓN DE TERMINADO: Al apretar el botón eliminar post al usuario se le alerte antes de eliminar el post.
+  **Yo como:**  Usuario de la Red Social
+  **Quiero:** eliminar un post específico.
+  **Para:** poder eliminar de mi muro los post que ya no quiera.
+  **Definición de terminado:** Al apretar el botón eliminar post al usuario se le alerte antes de eliminar el post.
 
   **Historia 11: contadorLikes**
-  YO COMO: Usuario de la Red Social
-  QUIERO: ver la cantidad de like que tiene su post.
-  PARA: saber cuántos like tienen mis post.
-  DEFINICIÓN DE TERMINADO: Al apretar el botón like, debe sumar un like a la publicación y que el usuario pueda visualizarlo.
+  **Yo como:**  Usuario de la Red Social
+  **Quiero:** ver la cantidad de like que tiene su post.
+  **Para:** saber cuántos like tienen mis post.
+  **Definición de terminado:** Al apretar el botón like, debe sumar un like a la publicación y que el usuario pueda visualizarlo.
 
   **Historia 12: editar Post**
-  YO COMO: Usuario de la Red Social
-  QUIERO: editar un post específico.
-  PARA: poder editar de mi muro los posts que quiera
-  DEFINICIÓN DE TERMINADO: Al presionar el botón editar, este cambie a guardar y el post se pueda editar.
+  **Yo como:** Usuario de la Red Social
+  **Quiero:** editar un post específico.
+ **Para:** poder editar de mi muro los posts que quiera
+  **Definición de terminado:** Al presionar el botón editar, este cambie a guardar y el post se pueda editar.
 
   **Historia 13: ver y publicar post Públicos y Privados**
-  YO COMO: Usuario de la Red Social
-  QUIERO: Asignar  y saber si un post es público o privado
-  PARA: poder ver los post que son públicos y los que solo pueda ver yo como usuario.
-  DEFINICIÓN DE TERMINADO:  El usuario pueda seleccionar si el post a publicar sea público o privado, pueda ver los post públicos de otras personas y solo el usuario pueda ver sus post privados. 
+  **Yo como:**  Usuario de la Red Social
+  **Quiero:** Asignar  y saber si un post es público o privado
+  **Para:** poder ver los post que son públicos y los que solo pueda ver yo como usuario.
+  **Definición de terminado:**  El usuario pueda seleccionar si el post a publicar sea público o privado, pueda ver los post públicos de otras personas y solo el usuario pueda ver sus post privados. 
 
 
 ## Diseño de la Interfaz de Usuario (prototipo de baja fidelidad)
