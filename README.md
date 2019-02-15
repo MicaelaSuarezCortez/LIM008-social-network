@@ -131,7 +131,7 @@ En las redes sociales se abarcan diversidad de temas por eso vimos oportuno crea
 
   **Historia 1: registroUsuario**
 
-  + **Yo como:** Usuario de la Red Social.
+  + **Yo como:** usuario de la Red Social.
 
   + **Quiero:** quiero registrarme con mis datos (nombre, apellidos, alias, país, correo electrónico, contraseña).
 
@@ -141,112 +141,112 @@ En las redes sociales se abarcan diversidad de temas por eso vimos oportuno crea
 
   **Historia 2: verificaciónCorreoDeRegistro**
 
-  + **Yo como:** Usuario de la Red Social.
+  + **Yo como:** usuario de la Red Social.
 
   + **Quiero:** podré recibir un correo electrónico de verificación en mi bandeja.
 
   + **Para:** confirmar mis datos de registro.
 
-  + **Definición de terminado:** Que el usuario pueda recibir un enlace a su bandeja de correo y pueda dar clic para validar su correo y le muestre una ventana emergente que diga: Su correo ha sido validado.
+  + **Definición de terminado:** que el usuario pueda recibir un enlace a su bandeja de correo y pueda dar clic para validar su correo y le muestre una ventana emergente que diga: Su correo ha sido validado.
 
   **Historia 3: inicioSesionNormal**
 
-  **Yo como:** Usuario de la Red Social.
+  + **Yo como:** usuario de la Red Social.
 
-  **Quiero:** iniciar sesión con mi correo electrónico y contraseña que ingresé en mi formulario de registro.
+  + **Quiero:** iniciar sesión con mi correo electrónico y contraseña que ingresé en mi formulario de registro.
 
-  **Para:** para brindarle una capa de seguridad para acceder a información y contenido de mi cuenta.
+  + **Para:** para brindarle una capa de seguridad para acceder a información y contenido de mi cuenta.
 
-  **Definición de terminado:** que el usuario ingrese usuario y contraseña en inputs y pueda dar clic en el botón ingresar para acceder al contenido de su cuenta de Joinclude.
+  + **Definición de terminado:** que el usuario ingrese usuario y contraseña en inputs y pueda dar clic en el botón ingresar para acceder al contenido de su cuenta de Joinclude.
 
   **Historia 4: inicioSesionGoogle**
 
-  **Yo como:** usuario de la Red Social.
+  + **Yo como:** usuario de la Red Social.
 
-  **Quiero:**  usar mi cuenta de Google para iniciar sesión en Joinclude.
+  + **Quiero:**  usar mi cuenta de Google para iniciar sesión en Joinclude.
 
-  **Para:** brindarle una capa de seguridad para acceder a la información y contenido de mi cuenta.
+  + **Para:** brindarle una capa de seguridad para acceder a la información y contenido de mi cuenta.
 
-  **Definición de terminado:** que el usuario haga clic en el icono de Google para que inicie sesión y acceda al contenido de su cuenta en Joinclude.
+  + **Definición de terminado:** que el usuario haga clic en el icono de Google para que inicie sesión y acceda al contenido de su cuenta en Joinclude.
 
   **Historia 5: inicioSesionFacebook**
 
-  **Yo como:** usuario de la Red Social.
+  + **Yo como:** usuario de la Red Social.
 
-  **Quiero:** usar mi cuenta de Facebook para iniciar sesión a Joinclude.
+  + **Quiero:** usar mi cuenta de Facebook para iniciar sesión a Joinclude.
 
-  **Para:** brindarle una capa de seguridad para acceder a la información y contenido de mi cuenta.
+  + **Para:** brindarle una capa de seguridad para acceder a la información y contenido de mi cuenta.
 
-  **Definición de terminado:**  que el usuario haga clic en el icono de Facebook para que inicie sesión y acceda al contenido de su cuenta en Joinclude.
+  + **Definición de terminado:**  que el usuario haga clic en el icono de Facebook para que inicie sesión y acceda al contenido de su cuenta en Joinclude.
 
   **Historia 6: cerrarSesion**
 
-   **Yo como:**  usuario de la Red Social.
+  + **Yo como:**  usuario de la Red Social.
 
-  **Quiero:** cerrar sesión de mi cuenta.
+  + **Quiero:** cerrar sesión de mi cuenta.
 
-  **Para:** evitar que las  personas ingresen a una cuenta de otro usuario.
+  + **Para:** evitar que las  personas ingresen a una cuenta de otro usuario.
 
-  **Definición de terminado:** que el usuario pueda hacer clic en el botón salir del menú principal.
+  + **Definición de terminado:** que el usuario pueda hacer clic en el botón salir del menú principal.
 
   **Historia 7: publicarPost**
 
-  **Yo como:** usuario de la Red Social.
+  + **Yo como:** usuario de la Red Social.
 
-  **Quiero:** postear en mi muro.
+  + **Quiero:** postear en mi muro.
 
-  **Para:** mostrar información de mi interés.
+  + **Para:** mostrar información de mi interés.
 
-  **Definición de terminado:** que cada vez que el usuario haga click en el botón publicar se agregue el post en el muro del usuario, uno debajo de otro, usando firestore como servicio de base de datos.
+  + **Definición de terminado:** que cada vez que el usuario haga click en el botón publicar se agregue el post en el muro del usuario, uno debajo de otro, usando firestore como servicio de base de datos.
 
   **Historia 8: validaciónPost**
-  **Yo como:**  usuario de la Red Social.
+  + **Yo como:**  usuario de la Red Social.
 
-  **Quiero:** que no pueda publicar un post vacío.
+  + **Quiero:** que no pueda publicar un post vacío.
 
-  **Para:**  evitar post vacíos en el muro de la red social.
+  + **Para:**  evitar post vacíos en el muro de la red social.
 
-  **Definición de terminado:** Si el textarea del post se encuentra vacío se emitirá un mensaje: no puedes publicar algo vacío.
+  + **Definición de terminado:** si el textarea del post se encuentra vacío se emitirá un mensaje: no puedes publicar algo vacío.
 
   **Historia 9: eliminarPost**
 
-  **Yo como:**  Usuario de la Red Social.
+  + **Yo como:**  usuario de la Red Social.
 
-  **Quiero:** eliminar un post específico.
+  + **Quiero:** eliminar un post específico.
 
-  **Para:** poder eliminar de mi muro los post que ya no quiera.
+  + **Para:** poder eliminar de mi muro los post que ya no quiera.
 
-  **Definición de terminado:** Al apretar el botón eliminar post este se elimine.
+  + **Definición de terminado:** al apretar el botón eliminar post el post se elimine.
 
   **Historia 10: contadorLikes**
 
-  **Yo como:**  Usuario de la Red Social.
+  + **Yo como:**  Usuario de la Red Social.
 
-  **Quiero:** ver la cantidad de like que tiene su post.
+  + **Quiero:** ver la cantidad de like que tiene su post.
 
-  **Para:** saber cuántos like tienen mis post.
+  + **Para:** saber cuántos like tienen mis post.
 
-  **Definición de terminado:** Al apretar el botón like, debe sumar un like a la publicación y que el usuario pueda visualizarlo.
+  + **Definición de terminado:** al apretar el botón like, debe sumar un like a la publicación y que el usuario pueda visualizarlo.
 
   **Historia 11: editar Post**
 
-  **Yo como:** Usuario de la Red Social.
+  + **Yo como:** usuario de la Red Social.
 
-  **Quiero:** editar un post específico.
+  + **Quiero:** editar un post específico.
 
- **Para:** poder editar de mi muro los posts que quiera.
+  + **Para:** poder editar de mi muro los posts que quiera.
 
-  **Definición de terminado:** Al presionar el botón editar, este cambie a guardar y el post se pueda editar y luego se actualice en la base de datos de firestore.
+  + **Definición de terminado:** al presionar el botón editar, este cambie a guardar y el post se pueda editar y luego se actualice en la base de datos de firestore.
 
   **Historia 12: ver y publicar post Públicos y Privados**
 
-  **Yo como:**  Usuario de la Red Social.
+  + **Yo como:**  usuario de la Red Social.
 
-  **Quiero:** Asignar  y saber si un post es público o privado.
+  + **Quiero:** asignar  y saber si un post es público o privado.
 
-  **Para:** poder ver los post que son públicos y mis post privados.
+  + **Para:** poder ver los post que son públicos y mis post privados.
 
-  **Definición de terminado:**  El usuario pueda seleccionar si el post a publicar sea público o privado, pueda ver los post públicos de otras personas y solo el usuario pueda ver sus post privados. 
+  + **Definición de terminado:**  el usuario pueda seleccionar si el post a publicar sea público o privado, pueda ver los post públicos de otras personas y solo el usuario pueda ver sus post privados. 
 
 
 ## Diseño de la Interfaz de Usuario (prototipo de baja fidelidad)
