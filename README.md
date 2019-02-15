@@ -119,16 +119,17 @@ En las redes sociales se abarcan diversidad de tema por eso vimos oportuno crear
   ![Sin titulo](src/img/entrevistadas/papu.jpg)
 
   ![Sin titulo](src/img/entrevistadas/karla.jpg)
+ 
 
-  ![Sin titulo](src/img/entrevistadas/karla2.jpg)
 
-
-  Luego de recabar información proseguimos a plantear las historias de usuario.
+ Luego de recabar información proseguimos a plantear las historias de usuario.
 
 ## Historias de usuario
-    A continuación las historias de usuario para la red social Joinclude.
+
+  A continuación las historias de usuario para la red social Joinclude.
 
   **Historia 1: registroUsuario**
+
   **Yo como:** Usuario de la Red Social.
 
   **Quiero:** quiero registrarme con mis datos (nombre, apellidos, alias, país, correo electrónico, contraseña).
@@ -138,6 +139,7 @@ En las redes sociales se abarcan diversidad de tema por eso vimos oportuno crear
   **Definición de terminado:** el usuario podrá registrar sus datos en un formulario que contenga inputs y pueda dar clic en el botón unirme.
 
   **Historia 2: verificaciónCorreoDeRegistro**
+
   **Yo como:** Usuario de la Red Social.
 
   **Quiero:** podré recibir un correo electrónico de verificación en mi bandeja.
@@ -147,6 +149,7 @@ En las redes sociales se abarcan diversidad de tema por eso vimos oportuno crear
   **Definición de terminado:** Que el usuario pueda recibir un enlace a su bandeja de correo y pueda dar clic para validar su correo y le muestre una ventana emergente que diga: Su correo ha sido validado.
 
   **Historia 3: inicioSesionNormal**
+
   **Yo como:** Usuario de la Red Social.
 
   **Quiero:** iniciar sesión con mi correo electrónico y contraseña que ingresé en mi formulario de registro.
@@ -156,6 +159,7 @@ En las redes sociales se abarcan diversidad de tema por eso vimos oportuno crear
   **Definición de terminado:** que el usuario ingrese usuario y contraseña en inputs y pueda dar clic en el botón ingresar para acceder al contenido de su cuenta de Joinclude.
 
   **Historia 4: inicioSesionGoogle**
+
   **Yo como:** usuario de la Red Social.
 
   **Quiero:**  usar mi cuenta de Google para iniciar sesión en Joinclude.
@@ -165,6 +169,7 @@ En las redes sociales se abarcan diversidad de tema por eso vimos oportuno crear
   **Definición de terminado:** que el usuario haga clic en el icono de Google para que inicie sesión y acceda al contenido de su cuenta en Joinclude.
 
   **Historia 5: inicioSesionFacebook**
+
   **Yo como:** usuario de la Red Social.
 
   **Quiero:** usar mi cuenta de Facebook para iniciar sesión a Joinclude.
@@ -174,6 +179,7 @@ En las redes sociales se abarcan diversidad de tema por eso vimos oportuno crear
   **Definición de terminado:**  que el usuario haga clic en el icono de Facebook para que inicie sesión y acceda al contenido de su cuenta en Joinclude.
 
   **Historia 6: cerrarSesion**
+
    **Yo como:**  usuario de la Red Social.
 
   **Quiero:** cerrar sesión de mi cuenta.
@@ -183,6 +189,7 @@ En las redes sociales se abarcan diversidad de tema por eso vimos oportuno crear
   **Definición de terminado:** que el usuario pueda hacer clic en el botón salir del menú principal.
 
   **Historia 7: publicarPost**
+
   **Yo como:** usuario de la Red Social.
 
   **Quiero:** postear en mi muro.
@@ -191,7 +198,7 @@ En las redes sociales se abarcan diversidad de tema por eso vimos oportuno crear
 
   **Definición de terminado:** que cada vez que el usuario haga click en el botón publicar se agregue el post en el muro del usuario, uno debajo de otro, usando firestore como servicio de base de datos.
 
-  **Historia 9: validaciónPost**
+  **Historia 8: validaciónPost**
   **Yo como:**  usuario de la Red Social.
 
   **Quiero:** que no pueda publicar un post vacío.
@@ -200,7 +207,8 @@ En las redes sociales se abarcan diversidad de tema por eso vimos oportuno crear
 
   **Definición de terminado:** Si el textarea del post se encuentra vacío se emitirá un mensaje: no puedes publicar algo vacío.
 
-  **Historia 10: eliminarPost**
+  **Historia 9: eliminarPost**
+
   **Yo como:**  Usuario de la Red Social.
 
   **Quiero:** eliminar un post específico.
@@ -209,7 +217,8 @@ En las redes sociales se abarcan diversidad de tema por eso vimos oportuno crear
 
   **Definición de terminado:** Al apretar el botón eliminar post este se elimine.
 
-  **Historia 11: contadorLikes**
+  **Historia 10: contadorLikes**
+
   **Yo como:**  Usuario de la Red Social.
 
   **Quiero:** ver la cantidad de like que tiene su post.
@@ -218,7 +227,8 @@ En las redes sociales se abarcan diversidad de tema por eso vimos oportuno crear
 
   **Definición de terminado:** Al apretar el botón like, debe sumar un like a la publicación y que el usuario pueda visualizarlo.
 
-  **Historia 12: editar Post**
+  **Historia 11: editar Post**
+
   **Yo como:** Usuario de la Red Social.
 
   **Quiero:** editar un post específico.
@@ -227,7 +237,8 @@ En las redes sociales se abarcan diversidad de tema por eso vimos oportuno crear
 
   **Definición de terminado:** Al presionar el botón editar, este cambie a guardar y el post se pueda editar y luego se actualice en la base de datos de firestore.
 
-  **Historia 13: ver y publicar post Públicos y Privados**
+  **Historia 12: ver y publicar post Públicos y Privados**
+
   **Yo como:**  Usuario de la Red Social.
 
   **Quiero:** Asignar  y saber si un post es público o privado.
