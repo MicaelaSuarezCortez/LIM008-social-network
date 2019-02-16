@@ -9,6 +9,10 @@
 .container {
 top: 0px;
 bottom: 0px;
+background-image: url(img/fondo.jpg); 
+background-size: cover;
+background-attachment: fixed;
+padding-bottom: 12px;
 }
 body {  
  font-family: 'Open Sans', sans-serif; 
@@ -21,6 +25,10 @@ h2{
  font-weight: lighter;
 } 
 /* Estilos para la seccion de inicio de sesion */
+.form-network{
+  display: flex;
+  align-items: center;
+}
 .login-form {
  border: 1px black;
  width: 100%;
@@ -30,12 +38,10 @@ h2{
  background-color: #E9ACF6;
  border-radius: 12px;
  height: 100%;
- position: absolute;
 }
-.login-form > fieldset {
- display: grid;
- grid-template-columns: 100px auto;
- border: none;
+.space {
+  margin-top: 20px;
+  margin-bottom: 22px;
 }
 .img-login {
  margin-left: 100px;
@@ -56,7 +62,7 @@ h2{
  margin-top: 10px;
 }
 .login-user {
- margin-left: 29px;
+  margin-left: 35px;
 }
 .img-user {
  width: 20px;
@@ -125,11 +131,7 @@ h2{
 }
 /* Estilos para la seccion de registrar */
 .form-signUp {
- background-image: url(img/58930.jpg);
- background-size: cover;
- height: 100%;
- width: 100%;
- position: absolute;
+ padding-top: 40px;
 }
 .style-login{
  text-align: center;
@@ -176,6 +178,13 @@ h2{
  margin-left: 20px;
  margin-right: 10px;
 }
+.img-log3{
+  width: 30px;
+ height: 35px;
+ margin-left: 60px;
+ margin-right: 10px;
+}
+
 .align {
  margin-right: 10px;
 }
@@ -183,6 +192,7 @@ h2{
  font-size: 19px;
  margin-top: 17px;
 }
+
 /* Estilos para el barra de navegacion de la pagina */
 .menu-bar {
  display: none;
@@ -203,7 +213,6 @@ h2{
  display: block;
  cursor: pointer;
  float: right;
- margin-left: 150px;
  }
 .img-menu {
  width: 30px;
@@ -236,10 +245,8 @@ h2{
  margin-top: 30px;
 }
 .text-4 {
- width: 140px;
- float: right;
- margin-right: 70px;
- font-size: 20px;
+  width: 100%;
+  font-size: 20px;
 }
 .text-3 {
  width: 140px;
@@ -253,6 +260,7 @@ h2{
 }
 .li-menu2 {
  margin-bottom: 30px;
+ width: 100%;
 }
 /* Estilos para publicar los posts */
 .box-post{
@@ -265,6 +273,7 @@ h2{
 .model-post {
  margin: auto;
  width: 380px;
+ margin-top: 20px;
 }
 .large3 {
  height: 140px;
@@ -338,6 +347,7 @@ h2{
  float: right;
  margin-right: 90px;
  margin-top: 15px;
+ width: 60%;
 }
 .icon-privacy {
  font-size: 8px;
@@ -381,6 +391,10 @@ h2{
  flex-direction: column;
  align-items: center;
 }
+.logo-page {
+  width: 88%;
+  float: left;
+}
 /* Estilo para el pie de pagina */
 .footer{
  position: fixed;
@@ -402,10 +416,6 @@ h2{
  .select-privacy {
   margin-left: 170px;
  }
- .text-5 {
-  margin-right: 180px;
- }
- 
  .text-4 {
   width: 160px;
   font-size: 20px;
@@ -415,4 +425,11 @@ h2{
  .login-form{
   width: 100%
  } 
+ .space2 {
+  width: 78%;
+}
+.logo-page {
+  width: 88%;
+  float: left;
+}
 }
